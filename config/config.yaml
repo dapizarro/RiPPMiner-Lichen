@@ -1,0 +1,37 @@
+antismash_dir: "data/example_antismash"
+metadata: "data/metadata.tsv"
+results_dir: "results"
+
+ripp_keywords:
+  - "RiPP"
+  - "ripp"
+  - "LAP"
+  - "lassopeptide"
+  - "lanthipeptide"
+  - "thiopeptide"
+  - "fungal-RiPP"
+  - "fungal RiPP"
+  - "ranthipeptide"
+  - "sactipeptide"
+  - "bottromycin"
+  - "cyanobactin"
+
+tailoring_keywords:
+  - "methyltransferase"
+  - "oxidase"
+  - "cytochrome P450"
+  - "CYP"
+  - "dehydrogenase"
+  - "peptidase"
+  - "protease"
+  - "transporter"
+  - "kinase"
+  - "radical SAM"
+  - "SAM-dependent"
+
+scoring:
+  ripp_annotation_weight: 3.0
+  tailoring_weight: 0.7
+  short_precursor_weight: 1.5
+  rarity_weight: 2.0
+  unknown_product_weight: 1.0

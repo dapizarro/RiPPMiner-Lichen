@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "RiPPMiner-Lichen: prioritisation of RiPP-like biosynthetic gene clusters in lichen-forming fungi"
+message: "If you use this workflow, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Pizarro
+    given-names: David
+repository-code: "https://github.com/dapizarro/RiPPMiner-Lichen"
+license: MIT
+version: 1.0.0
+date-released: 2026-06-12
+keywords:
+  - lichens
+  - RiPPs
+  - biosynthetic gene clusters
+  - antiSMASH
+  - secondary metabolism
+  - fungal genomics
