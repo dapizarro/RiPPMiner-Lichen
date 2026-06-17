@@ -1,5 +1,9 @@
 # RiPPMiner-Lichen
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20700515.svg)](https://doi.org/10.5281/zenodo.20700515)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 **RiPPMiner-Lichen** is a reproducible workflow for detecting, summarising and prioritising putative RiPP-like biosynthetic gene clusters in lichen-forming fungi from antiSMASH outputs.
 
 This repository is designed as a lightweight, reusable companion workflow for lichen biosynthetic genomics. It does **not** reproduce any single published study directly; instead, it provides a general framework to explore RiPP candidates in non-model fungal genomes.
@@ -121,32 +125,19 @@ The default novelty score combines:
 
 This is a prioritisation score, not experimental validation.
 
-## Typical use case
+---
 
-```bash
-# Edit config/config.yaml
-snakemake --cores 8
-```
+## Scientific Background
 
-Then inspect:
+RiPPMiner-Lichen was developed within ongoing research on biosynthetic diversity and natural product discovery in lichen-forming fungi.
 
-```text
-results/ripp_ranked_candidates.tsv
-```
+The workflow is conceptually informed by recent comparative genomics and paired-omics studies exploring biosynthetic gene clusters across lichenized fungi, including:
 
-The highest-ranking candidates are good targets for:
+> Singh G., Xu M., Zdouc M., Pasinato A., Egbert S., Yu X., Pizarro D., et al. (2025). Paired-omics-based exploration and characterization of biosynthetic diversity in lichenized fungi. Microbial Genomics.
+> Singh G., Pasinato A., Yriarte A.L.C., Pizarro D., et al. (2024). Are there conserved biosynthetic genes in lichens? Genome-wide assessment of terpene biosynthetic genes suggests conserved evolution of the squalene synthase cluster.
 
-- manual antiSMASH inspection,
-- BiG-SCAPE / BiG-SLiCE clustering,
-- comparison with MIBiG,
-- metabolomics-guided deorphanisation,
-- expression or co-expression analysis,
-- targeted MS/MS validation.
+RiPPMiner-Lichen is not a reimplementation of any individual study. Instead, it provides a reusable framework for identifying and prioritizing RiPP-like biosynthetic loci across fungal genomes.
 
 ## Citation
 
-If you use this workflow, cite the repository DOI once archived in Zenodo and cite the relevant antiSMASH, BiG-SCAPE, MIBiG and lichen biosynthetic genomics literature.
-
-## Authorship note
-
-This repository is intended as a general methodological workflow for RiPP candidate prioritisation in lichen-forming fungi. It is conceptually inspired by recent comparative lichen biosynthetic genomics, but it is not a reimplementation of any individual study.
+If you use this workflow, cite the repository as Pizarro, D. (2026). RiPPMiner-Lichen: prioritisation of RiPP-like biosynthetic gene clusters in lichen-forming fungi (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20700515 and cite the relevant antiSMASH, BiG-SCAPE, MIBiG and lichen biosynthetic genomics literature.
