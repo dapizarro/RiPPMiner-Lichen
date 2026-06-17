@@ -135,7 +135,7 @@ The workflow is conceptually informed by recent comparative genomics and paired-
 
 > Singh G., Xu M., Zdouc M., Pasinato A., Egbert S., Yu X., Pizarro D., et al. (2025). Paired-omics-based exploration and characterization of biosynthetic diversity in lichenized fungi. Microbial Genomics.
 
-> Singh G., Pasinato A., Yriarte A.L.C., Pizarro D., et al. (2024). Are there conserved biosynthetic genes in lichens? Genome-wide assessment of terpene biosynthetic genes suggests conserved evolution of the squalene synthase cluster.
+> Singh G., Pasinato A., Yriarte A.L.C., Pizarro D., et al. (2024). Are there conserved biosynthetic genes in lichens? Genome-wide assessment of terpene biosynthetic genes suggests conserved evolution of the squalene synthase cluster. Research Square.
 
 RiPPMiner-Lichen is not a reimplementation of any individual study. Instead, it provides a reusable framework for identifying and prioritizing RiPP-like biosynthetic loci across fungal genomes.
 
