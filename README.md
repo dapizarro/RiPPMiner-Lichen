@@ -1,6 +1,6 @@
 # RiPPMiner-Lichen
 
-![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20700515.svg) (https://doi.org/10.5281/zenodo.20700515)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20700515.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
